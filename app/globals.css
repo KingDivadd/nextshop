@@ -119,6 +119,11 @@
     }
 }
 
+.template-200 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+}
+
 .template-300 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

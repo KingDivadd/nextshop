@@ -31,7 +31,7 @@ const FeaturedProducts = () => {
         <div className="mt-14 mb-5">
             <div className="flex flex-col items-center">
                 <p className="text-3xl font-medium">Featured Products</p>
-                <div className="w-28 h-0.5  mt-2"></div>
+                <div className="w-28 h-[1.5px] bg-orange-600 mt-2"></div>
             </div>
 
             <div className="w-full template-300 gap-8 lg:gap-14 mt-12 md:px-14 px-4">

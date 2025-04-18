@@ -12,10 +12,12 @@ const HomeProducts = () => {
         <main className='flex flex-col pt-14 items-center'>
             <p className="text-2xl font-medium text-left w-full">Popular products</p>
 
-            <section className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 flex-col items-center gap-6 mt-6 pb-14 w-full">
+            <section className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 mt-6 pb-14 w-full">
                 {products && products.map((data, ind:number)=>{
                     return(
-                        <ProductCard key={ind} product={data}  />
+                        <div key={ind} className="flex justify-center ">
+                            <ProductCard product={data} />
+                        </div>
                     )
                 })}
             </section>

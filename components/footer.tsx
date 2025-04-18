@@ -8,11 +8,11 @@ import { title } from 'process'
 const Footer = () => {
     return (
         <footer>
-            <div className="flex flex-col md:flex-row items-start justify-center px-6 md:px-16 lg:px-32 gap-10 py-14 border-b border-gray-500/30 text-gray-500">
+            <div className="flex flex-col md:flex-row items-start justify-center px-6 md:px-16 lg:px-32 gap-10 py-14 border-y border-gray-500/30 text-gray-500">
                 <div className="w-4/5">
                     <span className="flex items-center justify-self">
-                        <p className="text-lg font-medium text-orange-600">Next</p>
-                        <p className="text-lg font-medium ">Shop</p>
+                        <p className="text-xl font-medium text-orange-600">Next</p>
+                        <p className="text-xl font-medium ">Shop</p>
                     </span>
                     <p className="mt-6 text-md">
                         Lorem Ipsum is simply dummy text of the printing and typesetting
