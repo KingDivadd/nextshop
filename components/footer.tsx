@@ -28,7 +28,7 @@ const Footer = () => {
                         <ul className="text-sm space-y-2 flex flex-col">
                             {footer_links.map((data, ind)=>{
                                 return (
-                                    <Link href={data.link} className=''>{data.title}</Link>
+                                    <Link key={ind} href={data.link} className=''>{data.title}</Link>
                                 )
                             }) }
                         </ul>

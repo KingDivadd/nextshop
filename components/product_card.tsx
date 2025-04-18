@@ -4,7 +4,19 @@ import { useRouter } from 'next/navigation'
 import { useChat } from '@/context/app_context'
 import Image from 'next/image'
 
-const ProductCard = ({product}:ProductProps) => {
+interface Product {
+    _id: string;
+    name: string;
+    description: string;
+    image: string[];
+    offerPrice: number;
+}
+
+interface ProductProps {
+    product: Product;
+}
+
+const ProductCard = ({product}: ProductProps) => {
     const router = useRouter()
     const {currency} = useChat()
 
